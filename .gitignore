@@ -1,0 +1,83 @@
+# ============================================================
+# PROJECT FORESIGHT - .gitignore
+# ============================================================
+
+# Virtual Environment (MOST IMPORTANT!)
+venv/
+venv311/
+env/
+ENV/
+.venv/
+env311/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.iml
+
+# Data files (exclude large data)
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+*.parquet
+*.feather
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Models (large files)
+*.pkl
+*.h5
+*.keras
+*.joblib
+*.pb
+*.onnx
+
+# Streamlit
+.streamlit/
+
+# TensorFlow
+*.dll
+*.so
+*.dylib
+
+# Git LFS
+*.lfsvenv311/
+venv/
+__pycache__/
+*.pyc
+.env
+venv311/
+venv/
+__pycache__/
+*.pyc
+.env
